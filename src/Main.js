@@ -23,7 +23,7 @@ class Main extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     let newData = this.props.data.filter(
-      (elm) => elm.horns === this.state.value
+      (elm) => elm.horns == this.state.value
     );
     this.setState({ filteredData: newData });
   };
