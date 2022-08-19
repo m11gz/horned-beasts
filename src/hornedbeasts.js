@@ -2,7 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import { Card } from "react-bootstrap";
 
-class HornedBeast extends React.Component {
+class HornedBeasts extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -36,4 +36,4 @@ class HornedBeast extends React.Component {
   }
 }
 
-export default HornedBeast;
+export default HornedBeasts;

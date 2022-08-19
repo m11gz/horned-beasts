@@ -1,5 +1,5 @@
 import React from "react";
-import HornedBeast from "./HornedBeast";
+import HornedBeasts from "./HornedBeasts";
 import "./Main.css";
 import Form from "react-bootstrap/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -30,7 +30,7 @@ class Main extends React.Component {
 
   render() {
     let animals = this.state.filteredData.map((element) => {
-      return <HornedBeast temp={this.props.temp} animal={element} />;
+      return <HornedBeasts temp={this.props.temp} animal={element} />;
     });
     return (
       <main>
