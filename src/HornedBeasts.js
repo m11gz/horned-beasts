@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import { Card } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
 
 class HornedBeasts extends React.Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class HornedBeasts extends React.Component {
   };
   render() {
     return (
-      <Card className="animals">
+      <Card className='animals'>
         <h2>{this.props.animal.title}</h2>
         <img
           src={this.props.animal.image_url}
@@ -28,7 +28,7 @@ class HornedBeasts extends React.Component {
         />
         <p>{this.props.animal.description}</p>
         <p>{this.state.favs} ❤️</p>
-        <Button onClick={this.favorite} variant="primary">
+        <Button onClick={this.favorite} variant='primary'>
           Favorite
         </Button>
       </Card>
@@ -37,3 +37,4 @@ class HornedBeasts extends React.Component {
 }
 
 export default HornedBeasts;
+//

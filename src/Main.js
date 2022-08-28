@@ -8,13 +8,14 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 1,
+      value: 0,
       filteredData: this.props.data,
     };
   }
   handleChange = (event) => {
     event.preventDefault();
-    let selected = event.target.value;
+    console.log(event.target.value);
+    let selected = parseInt(event.target.value);
     this.setState({
       value: selected,
     });
@@ -22,10 +23,24 @@ class Main extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    let newData = this.props.data.filter(
-      (elm) => elm.horns == this.state.value
-    );
-    this.setState({ filteredData: newData });
+    console.log("this works");
+    console.log(this.state.value);
+    if (this.state.value === 1) {
+      let newData = this.props.data.filter((elm) => elm.horns === 1);
+      this.setState({ filteredData: newData });
+      console.log(this.state.value);
+    } else if (this.state.value === 2) {
+      let newData = this.props.data.filter((elm) => elm.horns === 2);
+      this.setState({ filteredData: newData });
+    } else if (this.state.value === 3) {
+      let newData = this.props.data.filter((elm) => elm.horns === 3);
+      this.setState({ filteredData: newData });
+    } else if (this.state.value === 100) {
+      let newData = this.props.data.filter((elm) => elm.horns === 100);
+      this.setState({ filteredData: newData });
+    } else {
+      this.setState({ filteredData: this.props.data });
+    }
   };
 
   render() {
@@ -41,17 +56,17 @@ class Main extends React.Component {
               <Form.Label>Selected Numbers</Form.Label>
               <Form.Select
                 style={{ width: "20%" }}
-                className="options"
-                name="selected"
+                className='options'
+                name='selected'
                 onChange={this.handleChange}
               >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="100">100</option>
+                <option value='1'>1</option>
+                <option value='2'>2</option>
+                <option value='3'>3</option>
+                <option value='100'>100</option>
               </Form.Select>
             </Form.Group>
-            <button type="submit">Submit</button>
+            <button type='submit'>Submit</button>
           </legend>
         </Form>
         {animals}

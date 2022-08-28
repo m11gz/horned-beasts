@@ -6,14 +6,16 @@ class SelectedBeasts extends React.Component {
   render() {
     return (
       <Modal show={this.props.show} onHide={this.props.onHide}>
-        <Card className="animals">
-          <h2>{this.props.animal.title}</h2>
-          <img
-            src={this.props.animal.image_url}
-            alt={this.props.animal.title}
-          />
-          <p>{this.props.animal.description}</p>
-          <p>{this.props.animal.favs} ❤️</p>
+        <Card className='animals'>
+          <Card.Body>
+            <Card.Title>{this.props.animal.title}</Card.Title>
+            <Card.Subtitle>{this.props.animal.favs}❤️ </Card.Subtitle>
+            <img
+              src={this.props.animal.image_url}
+              alt={this.props.animal.title}
+            />
+            <p>{this.props.animal.description}</p>
+          </Card.Body>
         </Card>
       </Modal>
     );
