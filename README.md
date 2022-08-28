@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Current Lab - Lab 4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Gallery of Horns
 
-## Available Scripts
+This is a React app displaying horned beasts. If you like a beast, you can click the favorite button as many times as you like and the number will increase by 1. If you want to see the description of the image, click on the image and a pop up will show the description. You can also select to see the beasts by the number of horns.
 
-In the project directory, you can run:
+Author: Miguel Rodriguez
+Collaborators: Jordan Yamada: Mark Thanadabouth
 
-### `npm start`
+Links and Resources
+none
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Reflections and Comments
+None
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Deployed Link
 
-### `npm test`
+LAB - lab02
+Number and name of feature: Feature #1: Display images
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Estimate of time needed to complete: 3 hours
 
-### `npm run build`
+Start time: 5:30pm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Finish time: 8:00pm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Actual time needed to complete: 2.5 hours
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Number and name of feature: Feature #2: Allow users to vote for their favorite beast
 
-### `npm run eject`
+Estimate of time needed to complete: 2 hours
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start time: 3pm
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Finish time: 6:00pm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Actual time needed to complete: 3 hours
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Number and name of feature: Feature #3: Bootstrap
 
-## Learn More
+Estimate of time needed to complete: 1 hours
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start time: 5pm
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Finish time: 6pm
 
-### Code Splitting
+Actual time needed to complete: about 1 hours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+LAB - lab03
+Number and name of feature: Feature #1: Display a Modal
 
-### Analyzing the Bundle Size
+Estimate of time needed to complete: 3 hours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start time: 3pm
 
-### Making a Progressive Web App
+Finish time: 5pm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Actual time needed to complete: 2 hours
 
-### Advanced Configuration
+LAB - lab04
+Number and name of feature: Feature #1: Filter by Numbers of Horns
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Estimate of time needed to complete: 1 hours
 
-### Deployment
+Start time: 8pm (08/27)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Finish time: 8:30pm (07/22)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Actual time needed to complete: 1:30 hours
