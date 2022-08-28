@@ -9,7 +9,7 @@ class SelectedBeasts extends React.Component {
         <Card className='animals'>
           <Card.Body>
             <Card.Title>{this.props.animal.title}</Card.Title>
-            <Card.Subtitle>{this.props.animal.favs}❤️ </Card.Subtitle>
+            <Card.Subtitle>{this.props.animal.favs}&hearts; </Card.Subtitle>
             <img
               src={this.props.animal.image_url}
               alt={this.props.animal.title}

@@ -27,7 +27,7 @@ class HornedBeasts extends React.Component {
           onClick={this.handleImgClick}
         />
         <p>{this.props.animal.description}</p>
-        <p>{this.state.favs} ❤️</p>
+        <p>{this.state.favs} &hearts;</p>
         <Button onClick={this.favorite} variant='primary'>
           Favorite
         </Button>
